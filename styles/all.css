@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #153f2c;
+}
+
+img#house {
+    width: 250px;
+    margin: -15px 0px 0px -15px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+div.container {
+    padding: 15px;
+    width: 220px;
+    height: 515px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: white;
+    border: 1px solid #113324d3;
+    box-shadow: 10px 9px 15px 5px #113324d3;
+    border-radius: 20px;
+}
+
+form#formulario {
+    position: relative;
+    width: 230px;
+    top: -146px;
+    left: -9%;
+    margin: 5px;
+    padding: 10px;
+    
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+}
+
+form#formulario > p {
+    line-height: 18px;
+    font-size: 14px;
+    text-align: justify;
+    padding-bottom: 10px;
+
+}
+
+form#formulario > h1 {
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#iemail, #ipassword {
+    padding-left: 5px;
+    width: 187px;
+    height: 37px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+
+    background-color: rgb(115, 191, 194);
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 10px;
+}
+
+#iemail {
+    color: black;
+}
+
+#iemail:enabled {
+    background-color: white;
+    color: black;
+    
+}
+
+#ipassword:enabled {
+    background-color: white;
+    color: black;
+    
+}
+
+#ientrar, #isenha {
+    width: 230px;
+    height: 40px;
+    margin-top: -25px;
+    margin-bottom: 1px;
+
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(100, 168, 170);
+}
+
+#ientrar {
+    background-color: rgb(100, 168, 170);
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+#ientrar:hover {
+    background-color: rgb(48, 80, 82);
+}
+
+#isenha {
+    color: rgb(64, 106, 107);
+    
+    margin-top: 1px;
+}
+
+#isenha:hover {
+    background-color: rgb(152, 255, 255);;
+}
+
+div.emapass {
+    background-color: rgb(2, 112, 112);
+    border-radius: 10px;
+    margin-left: -2px;
+    text-align: right;
+    width: 235px;
+}
+
+div#empass1 {
+    margin-bottom: 5px;
+}
+
+img#person {
+    display: block;
+    position: absolute;
+    top: 39.5%;
+    left: 2.8%;
+    width: 40px;
+}
+
+img#key {
+    position: absolute;
+    top: 57.3%;
+    left: 5%;
+    width: 28px;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 3px;
+}
