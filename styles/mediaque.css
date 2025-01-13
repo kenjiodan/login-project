@@ -9,6 +9,7 @@
 
     div.container {
         min-width: 600px;
+        transition-duration: 0.1s;
         overflow: hidden;
         box-shadow: 5px 5px 15px 4px #153f2cc7;
         height: 256px;
@@ -16,6 +17,7 @@
 
     form#formulario {
         position: absolute;
+        transition-duration: 0.1s;
         border-radius: 0px 20px 20px 0px;
         top: -2%;
         left: 26%;
@@ -23,8 +25,13 @@
         height: 267px;
     }
 
+    form#formulario > h1 {
+        margin-top: -13px;
+    }
+
     img#house {
         position: absolute;
+        transition-duration: 0.1s;
         left: -13%;
         width: 300px;
         margin: -15px 0px 0px -15px;
@@ -44,13 +51,13 @@
     }
 
     img#person {
-        top: 33.5%;
+        top: 30.5%;
         left: 1.8%;
         width: 40px;
     }
 
     img#key {
-        top: 53.5%;
+        top: 51.5%;
         left: 3%;
         width: 29px;
     }
@@ -65,6 +72,7 @@
 @media screen and (min-width: 992px) {
 
     div.container {
+        transition-duration: 0.1s;
         min-width: 915px;
         min-height: 321px;
         height: 256px;
@@ -72,6 +80,7 @@
     }
 
     img#house {
+        transition-duration: 0.1s;
         position: absolute;
         left: 50%;
         width: 488px;
@@ -80,6 +89,7 @@
     }
 
     form#formulario {
+        transition-duration: 0.1s;
         left: -0.5%;
         top: -0.5%;
         border-radius: 20px 0px 0px 20px;
@@ -100,13 +110,13 @@
     }
 
     img#person {
-        top: 38.5%;
+        top: 35.5%;
         left: 1.8%;
         width: 40px;
     }
 
     img#key {
-        top: 59.5%;
+        top: 56.5%;
         left: 3%;
         width: 29px;
     }

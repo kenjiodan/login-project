@@ -9,25 +9,33 @@
     <title>Página de Login</title>
 </head>
 <body>
-    <div class="container">
-        <img src="images/pexels-drbdrb-30167752.jpg" alt="House" id="house">
-        <form action="cadastro.php" method="post" id="formulario">
-            <h1>
-                Login
-            </h1>
-            <p>
-                Seja bem-vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente.
-            </p>
-            <div id="empass1" class="emapass">
-                <img src="images/icons8-person-64.png" alt="person" id="person"><input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
+    <div class="container"> <!--Todo conteúdo-->
+         <!--Imagem-->
+            <img src="images/pexels-drbdrb-30167752.jpg" alt="House" id="house">
+        
+        <div class="form">
+            <div id="titleform"> <!--Título de Login-->
+                <h1>
+                    Login
+                </h1>
+                <p>
+                    Seja bem-vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente.
+                </p>
             </div>
-            <div id="empass2" class="emapass">
-                <img id="key" src="images/icons8-key-24.png" alt="Key"><input type="password" name="password" id="ipassword" required placeholder="sua senha">
-            </div>
-            <br>
-            <input type="submit" value="Entrar" id="ientrar"><br>
-            <input type="submit" value="Esqueci a Senha ✉︎" id="isenha">
-        </form>
+            <form action="cadastro.php" method="post" class="loginform"> <!--Formulário de Login-->
+                <div id="empass1" class="emapass">
+                    <img src="images/icons8-person-64.png" alt="person" id="person"><input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
+                </div>
+                <div id="empass2" class="emapass">
+                    <img id="key" src="images/icons8-key-24.png" alt="Key"><input type="password" name="password" id="ipassword" required placeholder="sua senha">
+                </div>
+                <br>
+                <div id="submit">
+                    <input type="submit" value="Entrar" id="ientrar"><br>
+                    <input type="submit" value="Esqueci a Senha ✉︎" id="isenha">
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
