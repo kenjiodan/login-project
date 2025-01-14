@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="styles/all.css" media="all">
     <link rel="stylesheet" href="styles/mediaque.css">
     <title>Página de Login</title>
@@ -23,12 +24,16 @@
             </div>
             <form action="cadastro.php" method="post" class="loginform"> <!--Formulário de Login-->
                 <div class="emapass">
-                    
-                    <input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                    <input type="email" name="email" id="iemail" placeholder="seu e-mail" required maxlength="30">
                 </div>
                 <div class="emapass">
-                   
-                    <input type="password" name="password" id="ipassword" required placeholder="sua senha">
+                    <span class="material-symbols-outlined">
+                        vpn_key
+                    </span>
+                    <input type="password" name="password" id="ipassword" required placeholder="sua senha" min="8" max="30">
                 </div>
                 <div id="submit">
                     <input type="submit" value="Entrar" id="ientrar"><br>
