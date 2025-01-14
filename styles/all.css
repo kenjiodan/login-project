@@ -22,6 +22,8 @@ div.container {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
     
     background-color: white;
     box-shadow: 10px 9px 15px 5px #113324d3;

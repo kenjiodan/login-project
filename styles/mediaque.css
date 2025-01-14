@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) {
     body {
-        background-image: linear-gradient(to bottom, hsl(153, 50%, 16%), #3db880);
+        background-image: linear-gradient(to bottom, hsl(153, 50%, 16%), hsl(154, 100%, 50%),#3edd95d7);
         background-repeat: no-repeat;
     }
 
