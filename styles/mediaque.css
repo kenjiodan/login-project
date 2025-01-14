@@ -4,120 +4,82 @@
     body {
         background-image: linear-gradient(to bottom, hsl(153, 50%, 16%), #3db880);
         background-repeat: no-repeat;
-        height: 100vh;
     }
 
     div.container {
-        min-width: 600px;
-        transition-duration: 0.1s;
-        overflow: hidden;
+        height: 275px;
+        width: 80vw;
+
         box-shadow: 5px 5px 15px 4px #153f2cc7;
-        height: 256px;
     }
 
-    form#formulario {
+    div.container img {
         position: absolute;
-        transition-duration: 0.1s;
-        border-radius: 0px 20px 20px 0px;
-        top: -2%;
-        left: 26%;
-        width: 440px;
-        height: 267px;
+        left: -10%;
+        width: 340px;
+        height: 125%;
     }
 
-    form#formulario > h1 {
-        margin-top: -13px;
-    }
-
-    img#house {
-        position: absolute;
-        transition-duration: 0.1s;
-        left: -13%;
-        width: 300px;
-        margin: -15px 0px 0px -15px;
-        border-radius: 20px 0px 0px 20px;
+    div.form {
+        width: 70%;
+        height: 100%;
+        left: 30%;
+        top: 0%;
     }
 
     div.emapass {
-        width: 439px;
-    }
-
-    #ientrar, #isenha {
-        width: 439px;
+        width: 100%;
     }
 
     #iemail, #ipassword {
-        width: 389px;
+        left: 10%;
+        width: 90%;
     }
 
-    img#person {
-        top: 30.5%;
-        left: 1.8%;
-        width: 40px;
+    div#submit {
+        width: 100%;
     }
 
-    img#key {
-        top: 51.5%;
-        left: 3%;
-        width: 29px;
+    #ientrar, #isenha {
+        width: 100%;
     }
 
     #isenha {
-        color: rgb(64, 106, 107);
-        
-        margin-top: -2px;
+        color: rgb(64, 106, 107); 
     }
 }
 
 @media screen and (min-width: 992px) {
 
     div.container {
-        transition-duration: 0.1s;
-        min-width: 915px;
-        min-height: 321px;
-        height: 256px;
+        max-width: 940px;
+        min-height: 350px;
         overflow: hidden;
     }
 
-    img#house {
-        transition-duration: 0.1s;
+    div.container img {
         position: absolute;
         left: 50%;
         width: 488px;
-        margin: -15px 0px 0px -15px;
-        border-radius: 0px 20px 20px 0px;
     }
 
-    form#formulario {
-        transition-duration: 0.1s;
-        left: -0.5%;
-        top: -0.5%;
-        border-radius: 20px 0px 0px 20px;
+    div.form {
+        left: 0%;
+        width: 50%;
     }
 
-    form#formulario > p {
-        margin-bottom: 5px;
-        margin-top: 5px;
+    div#titleform {
+        font-size: 1.1em;
     }
 
-    form#formulario > h1 {
+    div#titleform > h1 {
+        font-size: 2em;
         margin-bottom: 10px;
     }
 
-
-    div.emapass {
-        margin-top: 5px;
+    div#titleform > p {
+        margin-bottom: 20px;
+        line-height: 22.5px;
     }
 
-    img#person {
-        top: 35.5%;
-        left: 1.8%;
-        width: 40px;
-    }
-
-    img#key {
-        top: 56.5%;
-        left: 3%;
-        width: 29px;
-    }
 }
