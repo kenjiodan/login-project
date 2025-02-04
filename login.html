@@ -10,37 +10,24 @@
 </head>
 <body>
     <div class="container"> <!--Todo conteúdo-->
-         <!--Imagem-->
-            <img src="images/pexels-drbdrb-30167752.jpg" alt="House" id="house">
-        
         <div class="form">
-            <div id="titleform"> <!--Título de Login-->
                 <h1>
                     Login
                 </h1>
                 <p>
                     Seja bem-vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente.
                 </p>
-            </div>
             <form action="cadastro.php" method="post" class="loginform"> <!--Formulário de Login-->
-                <div class="emapass">
-                    <span class="material-symbols-outlined">
-                        person
-                    </span>
-                    <input type="email" name="email" id="iemail" placeholder="seu e-mail" required maxlength="30">
-                </div>
-                <div class="emapass">
-                    <span class="material-symbols-outlined">
-                        vpn_key
-                    </span>
-                    <input type="password" name="password" id="ipassword" required placeholder="sua senha" min="8" max="30">
-                </div>
-                <div id="submit">
-                    <input type="submit" value="Entrar" id="ientrar"><br>
-                    <div id="imgmail">
-                        <input type="submit" value="Esqueci a Senha" id="isenha">
+                    <div class="backinput">
+                        <input type="email" name="email" id="iemail" placeholder="seu e-mail" required maxlength="30">
                     </div>
-                </div>
+                    <div class="backinput">
+                        <input type="password" name="password" id="ipassword" required placeholder="sua senha" min="8" max="30">
+                    </div>
+
+                    <input type="submit" value="Entrar" id="ientrar">
+                    
+                    <input type="submit" value="Esqueci a Senha" id="isenha">
             </form>
         </div>
     </div>
