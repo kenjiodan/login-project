@@ -19,15 +19,21 @@
                 </p>
             <form action="cadastro.php" method="post" class="loginform"> <!--Formulário de Login-->
                     <div class="backinput">
+                        <span class="icon material-symbols-outlined">
+                            person
+                            </span>
                         <input type="email" name="email" id="iemail" placeholder="seu e-mail" required maxlength="30">
                     </div>
                     <div class="backinput">
+                        <span class="icon material-symbols-outlined">
+                            key
+                        </span>
                         <input type="password" name="password" id="ipassword" required placeholder="sua senha" min="8" max="30">
                     </div>
 
                     <input type="submit" value="Entrar" id="ientrar">
                     
-                    <input type="submit" value="Esqueci a Senha" id="isenha">
+                    <input type="submit" value="Esqueci a Senha" id="isenha" onclick="alert('CHEQUE SEU INBOX E CONFIRME O EMAIL')">
             </form>
         </div>
     </div>

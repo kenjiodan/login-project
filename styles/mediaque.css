@@ -7,79 +7,51 @@
     }
 
     div.container {
-        height: 275px;
-        width: 80vw;
-
-        box-shadow: 5px 5px 15px 4px #153f2cc7;
-    }
-
-    div.container img {
-        position: absolute;
-        left: -10%;
-        width: 340px;
-        height: 125%;
-    }
-
-    div.form {
-        width: 70%;
-        height: 100%;
-        left: 30%;
-        top: 0%;
-    }
-
-    div.emapass {
-        width: 100%;
-    }
-
-    #iemail, #ipassword {
-        left: 10%;
-        width: 90%;
-    }
-
-    div#submit {
-        width: 100%;
-    }
-
-    #ientrar, #isenha {
-        width: 100%;
-    }
-
-    #isenha {
-        color: rgb(64, 106, 107); 
-    }
-}
-
-@media screen and (min-width: 992px) {
-
-    div.container {
-        max-width: 940px;
+        min-width: 70vw;
         min-height: 350px;
-        overflow: hidden;
+        justify-content: flex-end;
+        background-position: right top;
     }
 
-    div.container img {
-        position: absolute;
-        left: 50%;
-        width: 488px;
+    div.form > h1 {
+        font-size: 2.2em;
+        padding: 0px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    div.form > p {
+        font-size: 1em;
+        margin: 30px 0px;
     }
 
     div.form {
-        left: 0%;
-        width: 50%;
+        flex-basis: 60%;
+        align-self: stretch;
     }
 
-    div#titleform {
+    div.backinput > #iemail, #ipassword {
+        width: 90%;
+        padding: 10px;
         font-size: 1.1em;
     }
 
-    div#titleform > h1 {
-        font-size: 2em;
-        margin-bottom: 10px;
+    form.loginform > #ientrar, #isenha {
+        padding: 15px;
+        font-size: 1.1em;
+    }
+}
+
+    @media screen and (min-width: 992px) {
+
+    div.container {
+        min-width: 80vw;
+        justify-content: flex-start;
+        overflow: hidden;
+        background-position: right center;
     }
 
-    div#titleform > p {
-        margin-bottom: 20px;
-        line-height: 22.5px;
+    div.form {
+        flex-basis: 50%;
     }
 
 }
